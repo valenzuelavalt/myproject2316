@@ -32,6 +32,10 @@ explore: dummy {}
 
 explore: employees {}
 
+named_value_format: currencytest {
+  value_format: "$#,##0"
+}
+
 explore: events {
   join: users {
     type: left_outer
